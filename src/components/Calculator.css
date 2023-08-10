@@ -1,0 +1,298 @@
+.calculator-outer{
+    position: relative;
+    width: 100%;
+    height:805px;
+    top:18px;
+    background-color:black;
+    opacity: .9;
+    display: flex;
+    border-radius: 25px;
+}
+
+.calculator{
+    margin: auto;
+    width: 90%;
+    height: 85%;
+    background-color:#2196f3;
+    border-radius: 15px;
+}
+
+.btn-switch {
+    width: 48px;
+    height: 44px;
+    position: absolute;
+    top: 9px;
+    right: 25px;
+}
+.calc-title i{
+    color: #fff;
+    position: absolute;
+    left: 66px;
+    top: 7px;
+}
+
+.lightscreen{
+    width: 10px;
+    height: 10px;
+    background-color:rgb(233,37,77);
+    border-radius: 50%;
+    position: absolute;
+    top: 24px;
+    right: 83px;
+}
+h5{
+    display: none;
+}
+.calculator-screen{
+    width: 86%;
+    margin: auto;
+    height: 67px;
+    margin-top: 55px;
+    background-color:white;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    font-size: 30px;
+    font-weight: bold;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.btn-calc{
+    border-color: black;
+    border-width: 4px;
+    width: 90px;
+    height: 85px;
+    border-radius: 11px;
+    margin: 8px;
+    font-size: 45px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+    .calcicon {
+        position: absolute;
+        width: 60px;
+        height: 57px;
+        left: 11px;
+        top: 2px;
+    }
+
+@media only screen and (max-width: 1200px) 
+{
+    .btn-calc{
+        width: 70px;
+        height: 75px;
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 993px)
+{
+    .calculator-outer{
+        width: 450px;
+    }
+} 
+@media only screen and (max-width: 502px) 
+{
+    .calculator-outer{
+         top:110px;
+         width: 90%;
+         height: 555px;
+         border-radius: 15px;
+    }
+  
+.lightscreen {
+    width: 7px;
+    height: 7px;
+    top: 19px;
+    right: 66px;
+}
+    .btn-switch img {
+        width: 24px;
+        height: 24px;
+    }
+    .btn-switch{
+        right: 21px;
+    font-size: 15px;
+    border-radius: 17px;
+    top: 3px;
+    width: 38px;
+    height: 35px;
+    }
+   
+    .btn-calc{
+        width: 60px;
+        height: 47px;
+    font-size: 18px;
+    font-weight: 900;
+    }
+    .calculator{
+        width: 90%;
+    }
+    .calculator-screen {
+        /* width: 264px; */
+        width: 290px;
+        height: 50px;
+        margin-top: 27px;
+        font-size: 30px;
+    }
+   
+    .calcicon {
+        width: 43px;
+        height: 37px;
+        left: 12px;
+    }
+    .calc-title{
+    left: 56px;
+    top: 4px;
+    font-size: 25px;
+    }
+      body{
+          height: 700px;
+      }
+}
+@media only screen and (max-width: 481px)
+{
+    
+    .lightscreen {
+        right: 72px;
+    }
+} 
+@media only screen and (max-width: 451px) 
+{
+    
+    .btn-calc {
+        width: 62px;
+        height: 55px;
+        font-size: 22px;
+        font-weight: 900;
+    }
+    .lightscreen{
+            right: 76px;
+            top: 21px;
+      }
+.calc-title i{
+    left: 53px;
+    top: 10px;
+}
+    .calculator-screen {
+        width: 282px;
+        font-size: 30px;
+        margin-top: 46px;
+      
+    }
+    .calculator{
+        width: 90%;
+        border-radius: 13px;
+        margin-top: 50px;
+        height: 86%;
+    }
+    .calculator-outer{
+        width: 95%;
+        height: 577px;
+        border-radius: 21px;
+    }
+        .calcicon {
+            top: 8px;
+            left: 8px;
+    }
+    .btn-switch {
+        right: 19px;
+        height: 37px;
+        font-size: 10px;
+        border-radius: 17px;
+        top: 7px;
+        width: 39px;
+    }
+}
+
+@media only screen and (max-width: 430px)
+{
+
+
+.lightscreen {
+    right: 79px;
+    top: 22px;
+}
+.calculator-outer {
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 407px)
+{
+.btn-calc{
+width: 54px;
+height: 51px;
+}
+}
+
+@media only screen and (max-width: 401px)
+{
+    .btn-switch {
+        right: 16px;
+       
+    }
+    .lightscreen {
+        right: 67px;
+    }
+    .btn-calc{
+        width: 51px;
+        height: 42px;
+        font-size: 13px;
+    }
+    .calculator-outer {
+        width: 100%;
+    }
+    .calculator-screen {
+        width: 258px;
+        height: 40px;
+        font-size: 16px;
+    }
+    
+   
+    .calcicon {
+        width: 43px;
+        height: 37px;
+        left: 9px;
+        top: 7px;
+    }
+    h5{
+        font-size: 30px;
+        margin-top: 118px;
+    }
+} 
+
+@media only screen and (max-width: 360px){
+    .btn-calc{
+        width: 46px;
+    }
+    .calculator-screen {
+        width: 230px;
+    }
+}
+
+@media only screen and (max-width: 350px)
+
+{
+    .calculator-outer {
+        width: 100%;
+    }
+    .calculator {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width: 328px)
+
+{
+    .calculator-outer {
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 312px)
+
+{
+    .calculator-outer {
+        width: 100%;
+    }
+}
